@@ -68,13 +68,6 @@
     macros {
         // sometimes my device thinks a modifier is being held down
         // pressing all modifiers fixes it.
-
-        unstick: unstick {
-            label = "ZM_unstick";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LSHIFT &kp RSHIFT &kp LCTRL &kp RCTRL &kp LALT &kp RALT &kp LGUI &kp RGUI>;
-        };
     };
 
     combos {
@@ -99,7 +92,7 @@
 
         kp_apos {
             bindings = <&kp APOS>;
-            key-positions = <40 20 21>;
+            key-positions = <40 29 19>;
         };
 
         kp_rbkt {
