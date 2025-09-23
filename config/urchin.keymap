@@ -112,9 +112,14 @@
             key-positions = <0 1>;
         };
 
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <30 31>;
+        };
+
         mode {
             bindings = <&mo 3>;
-            key-positions = <30 31>;
+            key-positions = <32 33>;
         };
     };
 
